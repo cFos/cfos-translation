@@ -1,4 +1,3 @@
-
 // List of keys, which were changed in master file and requires new translation
 
 #date 2013-04-17
@@ -6,17 +5,17 @@
 // those changes are actual only for old pending for rework `rework-sftw_kelos***.txt` translation
 // notice for the proofreading - those string should be double-checked
 
-strict_rtp_help = "If activated, %p will recognize only those packets as RTP that come with a valid RTCP source ID. You should disable this option for Voice-over-IP programs (like VoIPBuster) that send no RTCP packets. Only activate this option, if traffic is incorrectly classified as RTP.";
+strict_rtp_help = "Si se activa,% p reconocerá únicamente los paquetes como RTP que vienen con una fuente ID RTCP válida. Debe desactivar esta opción para voz sobre IP (como programas VoIPBuster) que envían no hay paquetes RTCP. Sólo activar esta opción, si el tráfico se clasifica incorrectamente como RTP.";
 
-openwindow = "Show Window";
-openwindows = "Show Windows";
-closewindow = "Hide Window";
-closewindows = "Hide Windows";
-autoopen = "Auto-show/Auto-hide";
+openwindow = "Abre Ventana";
+openwindows = "Abre Ventanas";
+closewindow = "Oculta Ventana";
+closewindows = "Oculta Ventanas";
+autoopen = "Auto-abrir/Auto-ocultar";
 
-upgrade = "Get latest version";
+upgrade = "Tenga última versión";
 
-ole_error = "In order to use this configuration dialog,\\n%p must be installed and running on your computer.\\nPlease verify this and install again, if necessary.";
+ole_error = "En orden para usar este diáologo de configuración,\\n%p debe ser instalado y correr en su computadora.\\nPor favor verificar éste e instalar otra vez, si es necesario.";
 
 higher_prog_help = "Voice-over-IP, maybe online games";
 
