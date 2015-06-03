@@ -51,7 +51,7 @@ dlg_dun_auto = "自動連線";
 dlg_dun_default = "預設連線";
 dlg_dun_cons = "連線設定檔";
 dlg_dun_name = "連線名稱：";
-dlg_dun_uname = "用戶名：";
+dlg_dun_uname = "使用者名稱：";
 dlg_dun_pwd = "密碼：";
 dlg_dun_use_ipv4 = "使用 IPv4";
 dlg_dun_use_ipv6 = "使用 IPv6";
@@ -64,7 +64,7 @@ ask_inst_ipv6 = "此系統尚未安裝 IPv6 協定。\n\n"
 err_inst_ipv6 = "安裝 IPv6 協定時發生錯誤 %?。";
 pause_server = "暫停伺服器";
 resume_server = "恢復伺服器";
-file_link_failed = "檔案鏈結建立失敗。";
+file_link_failed = "檔案連結建立失敗。";
 
 / connection entry dialog
 con_err_save = "無法儲存連線資料！";
@@ -93,7 +93,7 @@ dynip_subheader = "設定動態 IP 伺服器";
 dlg_start_now_as_current_user = "以目前的使用者啟動 %p";
 dlg_autostart = "伴隨 Windows 啟動 %p";
 dlg_autostart_service = "以服務的型態安裝 %p，並在 Windows 啟動時也啟動這個服務";
-dlg_context_menu = "在 Windows 檔案總管右鍵選單裏加上項目";
+dlg_context_menu = "在 Windows 檔案總管右鍵選單裡加上項目";
 dlg_create_admin_account = "建立管理員帳號";
 dlg_admin_pwd = "使用者「admin」的密碼：";
 dlg_admin_pwd_needed = "必須輸入使用者「admin」的密碼才能建立管理員帳號。";
@@ -134,7 +134,7 @@ start_product = "啟動 %p";
 info_port_in_use = "%p 要使用的連接埠 %? 正被其它程式使用。\n\n程式：%?\n路徑：%?\n\n要使用 %p，您必須結束該程式或是設定 %p 使用其它連接埠。";
 monitor_port_desc = "本程式持續監控 % 要使用的連接埠，若連接埠被其它程式使用，便會警告使用者。";
 logon_start_desc = "以下的使用者登入時，本任務就會啟動 %p。";
-show_home_dir = "顯示使用者家目錄";
+show_home_dir = "顯示使用者首目錄";
 publish_file = "發佈檔案";
 user_administration = "使用者管理";
 
@@ -309,7 +309,7 @@ delete = "刪除";
 aux_lines = "輔助線";
 higher_prog_help = "網路電話、或是遊戲";
 high_prog_help = "遊戲、串流多媒體、Telnet 及其他的互動程式";
-low_prog_help = "伺服器資料, FTP 資料";
+low_prog_help = "伺服器資料， FTP 資料";
 lower_prog_help = "常駐的背景流量，例如：檔案分享";
 delete_help = "從清單移除（視為一般封包）。";
 prog_help = "同時傳輸低及高優先順序的封包時，低優先順序封包傳輸比較慢，若無高優先順序封包時，低優先順序的資料會以最大速度傳輸。";
@@ -357,7 +357,7 @@ last_3_months = "最近 3 個月";
 last_month = "上個月";
 last_12_months = "最近 12 個月";
 please_select = "請選擇";
-reset_day = "重置日期";
+reset_day = "重設日期";
 reset_day_unit = "日";
 rxtx_button = "接收/傳送選擇";
 save_budgets = "儲存預算";
@@ -409,7 +409,7 @@ autohide_on_fullscreen = "全螢幕時自動隱藏";
 slot_selected = "選擇的通訊協定/程式";
 show = "顯示";
 hide = "隱藏";
-slot_explain = "若封包屬於指定槽位的已知協定，流量會計算到該槽位；否則，若封包屬於指定槽位的程式，此流量會計算到該槽位；若不是上述兩種情況，此流量會被計算到所有其它流量的槽位裏（如果有勾選該選項）。";
+slot_explain = "若封包屬於指定槽位的已知協定，流量會計算到該槽位；否則，若封包屬於指定槽位的程式，此流量會計算到該槽位；若不是上述兩種情況，此流量會被計算到所有其它流量的槽位裡（如果有勾選該選項）。";
 traffic_analysis_title = "即時流量分析";
 other_traffic = "所有其它流量";
 traffic_analysis = "流量分析";
@@ -501,7 +501,7 @@ lock_position = "鎖定視窗位置";
 check_for_news = "檢查是否有新消息";
 rwin_expansion = "自動加大 RWIN 接收緩衝區";
 rwin_expansion_help = "如果 Windows 預設的 TCP RWIN 接收緩衝區太小，就自動加大來增加下載速度。";
-query_auto_open = "關閉自動開啟和關閉視窗功能？\n您可以稍後在右鍵選單裏啟用此功能。";
+query_auto_open = "關閉自動開啟和關閉視窗功能？\n您可以稍後在右鍵選單裡啟用此功能。";
 preview_skins = "預覽面板";
 enable_smartphone_skins = "手機面板";
 http_access_enabled = "已設定密碼，已允許遠端 HTTP 存取。";
@@ -613,7 +613,7 @@ repwd_reg_to = "由於您的系統設定有變動，您必需重新輸入下列 
 
 / installation directory dialog
 instdir_header = "安裝資料夾";
-instdir_subheader = "安裝資料夾指的是檔案複製到您的電腦硬碟裏的資料夾。";
+instdir_subheader = "安裝資料夾指的是檔案複製到您的電腦硬碟裡的資料夾。";
 instdir_info = "指定安裝資料夾。";
 instdir_change = "修改";
 instdir_src_dst = "來源和目的資料夾不能相同！";
@@ -643,7 +643,7 @@ usage_stats_chk = "自動將使用統計資料送回 cFos 來增進產品的效�
 
 / port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
 port_forwarding_chk = "如果可以就使用自動連接埠轉送功能。";
-port_forwarding_failed = "您的路由器 %? 似乎不支援自動連接埠轉送功能，您也許可以在路由器的設定裏啟用這個功能。";
+port_forwarding_failed = "您的路由器 %? 似乎不支援自動連接埠轉送功能，您也許可以在路由器的設定裡啟用這個功能。";
 port_forwarding_config = "您可以在 %? 設定您的路由器。";
 port_forwarding_fritz = "您已允許透過 UPnP 修改 FRITZ!Box 當中的 Home Network / Network / Programs 的安全設定，來啟用連接埠轉送功能。";
 
@@ -670,7 +670,7 @@ progress_inst_wait = "請您等待安裝完成。";
 progress_uninst_header = "移除";
 progress_uninst_subheader = "移除正在進行。";
 progress_uninst_wait = "請您等待移除完成。";
-progress_driver_wait = "請稍候…作業系統正在移除/安裝驅動程式，這可能會花幾分鐘的時間。";
+progress_driver_wait = "請稍候… 作業系統正在移除/安裝驅動程式，這可能會花幾分鐘的時間。";
 
 / confirm delete dialog
 conf_del_header = "刪除設定檔案";
@@ -707,7 +707,7 @@ bk_finish_head_fail = "註冊失敗。";
 bk_finish_info_fail = "由於下列原因造成註冊失敗：";
 
 / progress tasks
-task_register_email = "註冊電子郵件位址…";
+task_register_email = "註冊電子郵件地址…";
 task_restore_point = "設定系統還原點…";
 task_copy = "複製檔案…";
 task_desktop_link = "建立桌面捷徑…";
@@ -775,12 +775,12 @@ err_no32 = "無法在 64 位元的作業系統安裝 32 位元的驅動程式。
 err_bad_keyfile = "授權檔案似乎已損毀或是無效，請聯絡我們以取得有效的授權檔案。";
 err_bad_setup = "%p 似乎不正確的安裝或是某些檔案被修改，請重新安裝 %p 後重試。";
 err_bad_signature = "密碼似乎不正確，或是另一個授權檔案使用的密碼。請輸入符合這個授權檔案的正確密碼。";
-err_gdiplus = "找不到 GDI+ 函式庫！\n\n若要繼續安裝，必需先安裝 GDI+ 函式庫，\n您可以下載微軟的平台軟體開發工具組取得 GDI+ 函式庫，\n請下載安裝檔案並解壓縮所有檔案至任一目錄，\n然後將解開目錄下 \\asms\\10\\msft\\windows\\gdiplus\n裏的所有 gdiplus.* 檔案，\n複製到 Windows\\system32 目錄裏。\n\n點擊「確定」打開微軟的相關下載頁面。\n點擊「取消」中止目前的安裝。";
+err_gdiplus = "找不到 GDI+ 函式庫！\n\n若要繼續安裝，必需先安裝 GDI+ 函式庫，\n您可以下載微軟的平台軟體開發工具組取得 GDI+ 函式庫，\n請下載安裝檔案並解壓縮所有檔案至任一目錄，\n然後將解開目錄下 \\asms\\10\\msft\\windows\\gdiplus\n裡的所有 gdiplus.* 檔案，\n複製到 Windows\\system32 目錄裡。\n\n點擊「確定」開啟微軟的相關下載頁面。\n點擊「取消」中止目前的安裝。";
 err_winhttp = "找不到 WinHTTP 函式庫！\n\n若要繼續安裝，必需先安裝 WinHTTP 函式庫，\nWinHTTP 函式庫應該內建於您作業系統中，\n但是目前無法載入。";
 bad_manufacturer = "無法啟動安裝，因為這個產品只授權給特定的硬體！";
 cannot_install = "無法安裝";
 err_uninst_daemon = "無法移除服務。如果還有開啟 %p 的對話視窗，請先關閉這些視窗，否則請重新開機。";
-err_activate_10045 = "啟動授權碼時發生 HTTP 錯誤 10045，可能是您的 Winsock\n已損毀。要重置您的 Winsock，請開啟「命令提示字元」\n視窗，輸入「netsh winsock reset」，\n然後重新啟動您的系統，再試著啟動授權碼。";
+err_activate_10045 = "啟動授權碼時發生 HTTP 錯誤 10045，可能是您的 Winsock\n已損毀。要重設您的 Winsock，請開啟「命令提示字元」\n視窗，輸入「netsh winsock reset」，\n然後重新啟動您的系統，再試著啟動授權碼。";
 err_activate_12002 = "註冊時發生 HTTP 錯誤 12002（要求逾時），\n可能是防火牆、防毒軟體或是其它網路安全軟體封鎖了\n註冊時所需的網路連線。\n如果您有安裝上述軟體，請暫時停用這些軟體，\n然後再試著註冊。";
 / %1 = source, %2 = destination, %3 = explanation
 err_copy_from_to = "%1 檔案複製到 %2 時發生錯誤（%3）。";
@@ -813,12 +813,12 @@ dun_err_no_device = "找不到 %p 裝置。（此裝置應該在重新開機後�
 
 / e-mail registration dialog
 eml_header = "註冊電子郵件";
-eml_subheader = "在 cFos 註冊您的電子郵件位址。";
-eml_info = "請註冊您的電子郵件位址，我們可以將您加入我們的郵件通知清單中，並在 %p 有新版本時通知您。";
-eml_info_optional = "如果您註冊電子郵件位址，您會被加入我們的郵件通知清單中，並在 %p 有新版本時自動通知您，如果您不希望收到這些通知，請在此欄位保留空白。";
-eml_email = "您的電子郵件位址：";
-eml_invalid_email = "您輸入的電子郵件位址不正確。";
-eml_invalid_optional_email = "請輸入正確的電子郵件位址或保留空白。";
+eml_subheader = "在 cFos 註冊您的電子郵件地址。";
+eml_info = "請註冊您的電子郵件地址，我們可以將您加入我們的郵件通知清單中，並在 %p 有新版本時通知您。";
+eml_info_optional = "如果您註冊電子郵件地址，您會被加入我們的郵件通知清單中，並在 %p 有新版本時自動通知您，如果您不希望收到這些通知，請在此欄位保留空白。";
+eml_email = "您的電子郵件地址：";
+eml_invalid_email = "您輸入的電子郵件地址不正確。";
+eml_invalid_optional_email = "請輸入正確的電子郵件地址或保留空白。";
 eml_reg_failed = "註冊電子郵件失敗。";
 eml_checking_domain = "檢查電子郵件網域…";
 
@@ -837,7 +837,7 @@ virtual_wifi_error_get_cons = "取得網路連線時發生錯誤。";
 virtual_wifi_ics_warning = "已為下列連線啟用網際網路連線共用:\n%?\n\n您是否想改用此網路:\n%?";
 virtual_wifi_error_enable_ics = "啟用網際網路連線共用時發生錯誤。";
 virtual_wifi_error_start = "啟動虛擬 Wi-Fi 時發生錯誤。";
-virtual_wifi_ok = "已成功啟用虛擬 Wi-Fi 與網際網路連線共用。\n\n註：若客戶端無法正常連線至虛擬 Wi-Fi，請停止並重新開啟虛擬 Wi-Fi。\n\n若客戶端可以連線至虛擬 Wi-Fi 但無法連線至網際網路，請移除並重新安裝 %p。";
+virtual_wifi_ok = "已成功啟用虛擬 Wi-Fi 與網際網路連線共用。\n\n註：若用戶端無法正常連線至虛擬 Wi-Fi，請停止並重新開啟虛擬 Wi-Fi。\n\n若用戶端可以連線至虛擬 Wi-Fi 但無法連線至網際網路，請移除並重新安裝 %p。";
 virtual_wifi_query_stop = "要停止虛擬 Wi-Fi？";
 virtual_wifi_error_stop = "停止虛擬 Wi-Fi 時發生錯誤：";
 virtual_wifi_stopped = "已成功停止虛擬 Wi-Fi。";
@@ -901,13 +901,13 @@ actionwait = "連上網路之後，將執行您指定的行為。";
 discask = "確定要中斷此連線？";
 dial_warn = "允許撥打 %1 嗎?";
 / %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
-badvsn = "您使用的 %p 程式適用於 %1，\n但您的金鑰只能在 %2 使用。\n您可在以下網址訂購升級版：\nhttps://www.cfos.de/zh-tw/order/order.htm\n\n如果您剛購買了 %p 卻發現版本錯誤，請與我們聯繫：\n%url/contact/contact.htm";
+badvsn = "您使用的 %p 程式適用於 %1，\n但您的金鑰只能在 %2 使用。\n您可在以下網址訂購升級版：\nhttps://www.cfos.de/zh-tw/order/order.htm\n\n如果您剛購買了 %p 卻發現版本錯誤，請與我們聯絡：\n%url/contact/contact.htm";
 
 active = "使用中";
 inactive = "未使用";
 disabled = "已停用";
 setup = "驅動程式安裝";
-no_write = "沒有 %p 檔案的寫入權限\n%1。\n\n請洽詢您的電腦管理員，讓您獲得 CFOS.INI 與 GLOBAL.INI 檔案的寫入和修改權限。\n";
+no_write = "沒有 %p 檔案的寫入權限\n%1。\n\n請洽詢您的電腦管理員，讓您取得 CFOS.INI 與 GLOBAL.INI 檔案的寫入和修改權限。\n";
 oem_for = "%1 的 OEM 版本";
 second = "秒";
 seconds = "秒";
@@ -961,7 +961,7 @@ dlg_inst_subheader = "即將安裝 %p 到您的電腦。";
 dlg_start_header = "準備安裝";
 dlg_end_dsl = "建立 DSL 撥號連線";
 dlg_end_isdn = "建立 ISDN 撥號連線";
-dlg_end_block = "設置禁撥電話號碼鎖";
+dlg_end_block = "設定禁撥電話號碼鎖";
 dlg_oem_header = "%p Professional";
 adv_osna = "這是一個特殊的 DSL 版本，僅適用於您的網路業者。此外，您也可以安裝 cFos Professional 的 30 天試用版。此版本將於下個對話窗中展示更強大的功能。";
 dlg_oem_quest = "您想安裝 30 天試用版嗎？";
@@ -982,11 +982,11 @@ dlg_med_isdn_box = "ISDN (CAPI 2.0)";
 dlg_med_dsl_box = "DSL（PPPoE 撥號連線）";
 dlg_med_areacode_txt = "區號：";
 dlg_med_msn_txt = "MSN（您的 ISDN 電話號碼）：";
-dlg_med_netbt_txt = "調整 TCP/IP 設定以便獲得最大效能，並取消 NetBIOS over TCP/IP（推薦）";
+dlg_med_netbt_txt = "調整 TCP/IP 設定以便取得最大效能，並取消 NetBIOS over TCP/IP（推薦）";
 
 / com port dialog
 dlg_com_header = "%p COM 埠選擇";
-dlg_com_subheader = "支持多重 COM 通訊埠：將 ISDN 和多重鏈路 PPP 頻道合併。";
+dlg_com_subheader = "支援多重 COM 通訊埠：將 ISDN 和多重鏈路 PPP 頻道合併。";
 dlg_com_txt = "請選擇要使用的 COM 埠。";
 dlg_com_prefix = "COM";
 
@@ -1035,7 +1035,7 @@ dlg_dun_header_dsl = "DSL 連線";
 dlg_dun_header_isdn = "ISDN 連線";
 dlg_dun_subheader = "請確定您已輸入完整及正確的資料，尤其是您的帳號與密碼。";
 dlg_dun_phone = "撥號號碼：";
-dlg_dun_line = "包括外線前綴號碼（例如用公司電話在撥打外線需先撥 0）（若需要）";
+dlg_dun_line = "包括外線首碼號碼（例如用公司電話在撥打外線需先撥 0）（若需要）";
 dlg_dun_showall = "顯示所有國家";
 
 / user connection dialog
@@ -1063,12 +1063,12 @@ dlg_blk_block = "需要封鎖的號碼";
 dlg_blk_warn = "需要警告的號碼";
 dlg_blk_add = "新增";
 dlg_blk_del = "移除";
-dlg_blk_prefix = "前綴號碼";
+dlg_blk_prefix = "首碼號碼";
 dlg_blk_ask_pref = "";
 dlg_blk_ras = "所有的撥號連線";
 dlg_blk_doublechk = "雙重檢測";
-dlg_blk_doublechk_help = "如果您想檢查包含與不含前綴號碼\n的部分，請勾選「雙重檢測」。\n通常只在與您的電腦連結的部分裝置需要，而另一部分\n又不需要撥號前綴時，才需要勾選此選項。\n";
-dlg_blk_legalinfo = "cFosWatch 與 %p 無法保護的情況：\n如果您同時安裝了 ISDN 卡與傳統類比數據機，\n這些裝置就還是可能撥打到需要被封鎖的昂貴電話號碼。\n如果這發生在沒有 %p 或撥號連線（例：有第三方程式\n透過自訂的方式建立語音或數據連線），就無法被\n%p 或 cFosWatch 偵測到。這種情況下，您必須\n直接拔掉數據機的插頭或關閉電源。目前也沒有辦法保護\n由未安裝　%p 或 cFosWatch 的電腦和傳統電話所撥出的\n連線。若您想要得到完整的保護，請直接向電信業者申請\n封鎖某些電話號碼，但這種服務可能也不是免費的。此外，\n我們無法為 %p 和/或 cFosWatch 的功能失效，或是作業系統\n與第三方軟體功能負責。若其他第三方軟體刻意停用或規避\n%p 和/或 cFosWatch 的功能時，恕本公司亦不承擔任何責任。\n\n本文也保存到 %p 資料夾的 0190.TXT 文件中。\n";
+dlg_blk_doublechk_help = "如果您想檢查包含與不含首碼號碼\n的部分，請勾選「雙重檢測」。\n通常只在與您的電腦連結的部分裝置需要，而另一部分\n又不需要撥號首碼時，才需要勾選此選項。\n";
+dlg_blk_legalinfo = "cFosWatch 與 %p 無法保護的情況：\n如果您同時安裝了 ISDN 卡與傳統類比數據機，\n這些裝置就還是可能撥打到需要被封鎖的昂貴電話號碼。\n如果這發生在沒有 %p 或撥號連線（例：有第三方程式\n透過自訂的方式建立語音或數據連線），就無法被\n%p 或 cFosWatch 偵測到。這種情況下，您必須\n直接拔掉數據機的插頭或關閉電源。目前也沒有辦法保護\n由未安裝　%p 或 cFosWatch 的電腦和傳統電話所撥出的\n連線。若您想要得到完整的保護，請直接向電信業者申請\n封鎖某些電話號碼，但這種服務可能也不是免費的。此外，\n我們無法為 %p 和/或 cFosWatch 的功能失效，或是作業系統\n與第三方軟體功能負責。若其他第三方軟體刻意停用或規避\n%p 和/或 cFosWatch 的功能時，恕本公司亦不承擔任何責任。\n\n本文也儲存至 %p 資料夾的 0190.TXT 文件中。\n";
 
 / password dialog
 dlg_pwd_header = "輸入密碼";
@@ -1106,11 +1106,11 @@ pr_inst_dun = "正在安裝 Windows 撥號連線…";
 pr_restart_point = "正在建立還原點…";
 
 / ISDN late install
-late_ask = "AOL 在您的電腦偵測到 ISDN 設備，您是否想安裝\nAOL 的 ISDN 支援程式 (%p OEM)？\n\n若您想立即安裝 ISDN 支援程式，請點擊「是」。\n\n若您想稍候再安裝 ISDN 支援程式，請點擊「否」。\n\n若您不想安裝 ISDN 支援程式，也不想再被詢問，請點擊「取消」。";
+late_ask = "AOL 在您的電腦偵測到 ISDN 裝置，您是否想安裝\nAOL 的 ISDN 支援程式 (%p OEM)？\n\n若您想立即安裝 ISDN 支援程式，請點擊「是」。\n\n若您想稍候再安裝 ISDN 支援程式，請點擊「否」。\n\n若您不想安裝 ISDN 支援程式，也不想再被詢問，請點擊「取消」。";
 late_instnever_confirm = "注意：您選擇了「取消」，將不會安裝 AOL 的支援程式。\n您有可能無法透過 ISDN 上網。\n如果您想透過 ISDN 連線至 AOL，我們則建議您安裝 ISDN 支援程式。\n\n您要安裝 ISDN 支援程式嗎？";
 
 / DSL late install
-late_dsl_ask = "AOL 在您的電腦偵測到 DSL 設備，您是否想安裝\nAOL 的 DSL 支援程式 (%p OEM)？\n\n若您想立即安裝 DSL 支援程式，請點擊「是」。\n\n若您想稍候再安裝 DSL 支援程式，請點擊「否」。\n\n若您不想安裝 DSL 支援程式，也不想再被詢問，請點擊「取消」。";
+late_dsl_ask = "AOL 在您的電腦偵測到 DSL 裝置，您是否想安裝\nAOL 的 DSL 支援程式 (%p OEM)？\n\n若您想立即安裝 DSL 支援程式，請點擊「是」。\n\n若您想稍候再安裝 DSL 支援程式，請點擊「否」。\n\n若您不想安裝 DSL 支援程式，也不想再被詢問，請點擊「取消」。";
 late_dsl_instnever_confirm = "注意：您選擇了「取消」，將不會安裝 AOL 的支援程式。\n您有可能無法透過 DSL 上網。\n如果您想透過 DSL 連線至 AOL，我們則建議您安裝 DSL 支援程式。\n\n您要安裝 DSL 支援程式嗎？";
 
 / modem registration
@@ -1147,7 +1147,7 @@ totd11 = "如果您的 DSL 數據機上沒有開關，請您將其電源插入�
 totd12 = "在 %p 狀態視窗中，您隨時可以看到目前的傳輸速度。%p 圖示顯示您是否正在傳送或接收資料。";
 totd13 = "%p 當中有超過一百個可以對數據機進行微調的設定。MODEM.TXT 當中列出了所有可用的數據機設定與相關指令。您只需要點擊 %p 選單中「說明」當中的「MODEM.TXT」擊可閱讀該文件。";
 totd14 = "%p 提供輔助說明的郵件群組，讓您可使用電子郵件訂閱。詳情請參見 %url/cfos-professional/update.htm。此外，您也可以加入我們的公告群組，這樣每當有新版的 %p 釋出時，您都會收到一封來自我們的電子郵件。";
-totd15 = "您可以在 WHATSNEW.TXT 檔案中找到所有目前版本新增了什麼功能與修正了什麼地方。請點擊 %p 選單中的「說明」，然後點選「WHATSNEW.TXT」。";
+totd15 = "您可以在 WHATSNEW.TXT 文件中找到所有目前版本新增了什麼功能與修正了什麼地方。請點擊 %p 選單中的「說明」，然後點選「WHATSNEW.TXT」。";
 totd16 = "%p 支援 Lotus Notes。請參見數據機檔案 LOTUS_CF.MDM 以取得更多資訊。";
 totd17 = "若您遇到任何問題，我們的技術支援團隊樂於協助您：%url/contact/contact.htm";
 totd18 = "嘲諷者說 C.F.O.S. 這個名字是「Creatures from Outer Space」（外太空生物）的縮寫，但是這種說法是錯誤的！C.F.O.S.這個名字的來源其實是「CAPI-FOSSIL」，其中 CAPI 是一種 ISDN 標準，FOSSIL 是 DOS 的一個序列埠介面。:-)";
@@ -1163,7 +1163,7 @@ dir_baddir = "無法存取該資料夾。\n請輸入有效資料夾。";
 
 / com port messages
 com_need1 = "您必須至少選擇一個 COM 通訊埠。";
-com_teles = "您選擇的 COM 通訊埠目前正被 TELES.VCOMM 占用。\n\n為了讓能夠 %p 使用這些通訊埠，請您按照以下指示設置 TELES.VCOMM：\n點擊：開始 - 設定 - 控制台 - TELES ISDN。\n然後，點選數據機，並釋放需要的 COM 通訊埠，\n為了使設定生效，您可能必須重開機。";
+com_teles = "您選擇的 COM 通訊埠目前正被 TELES.VCOMM 占用。\n\n為了讓能夠 %p 使用這些通訊埠，請您按照以下指示設定 TELES.VCOMM：\n點擊：開始 - 設定 - 控制台 - TELES ISDN。\n然後，點選數據機，並釋放需要的 COM 通訊埠，\n為了使設定生效，您可能必須重開機。";
 com_rvscomnt = "您選擇的 COM 通訊埠可能正被 RVS-COM 占用。\n如果您已經進行了以下的改動，請您直接點擊「確定」。\n\n為了能夠讓 %p 使用這些通訊埠，請您按照以下指示停止 RVS COM 驅動程式：\n點擊： 開始 - 設定 - 控制台 - 裝置。\n尋找「RVS Virtual COM Port」裝置，並點擊「停止」。\n接下來，點選「啟動」選單，選擇「手動」。然後點擊「確定」-「關閉」。\n為了使設定生效，您可能必須重開機。";
 com_rvscom95 = "您選擇的 COM 通訊埠目前正被 RVS-COM 占用。\n\n為了能夠讓 %p 使用這些通訊埠，您必須移除或停用\nVRVSPORT。您可以在硬體管理員中進行。\n";
 
@@ -1229,7 +1229,7 @@ group_wwwcfos = "www.cfos.de";
 group_hypertrm = "網際網路超級終端機";
 group_dun_dsl = "設定 DSL 連線";
 group_dun_isdn = "設定 ISDN 連線";
-group_num_block = "設置禁撥電話號碼鎖";
+group_num_block = "設定禁撥電話號碼鎖";
 
 / registration
 tkey_notfound = "找不到傳輸檔案 %s。\n請將檔案複製到 %p 安裝程式所在的資料夾，\n並重新啟動 %p 安裝程式。\n";
@@ -1251,7 +1251,7 @@ inst_already = "您已經在「%s」通訊埠安裝了 %p。";
 inst_toinstall = "準備安裝：";
 inst_aol_over_cfi = "您正準備安裝 AOL %p 版本，但您已經\n安裝了其他的 OEM %p。\n若您繼續安裝這套 AOL 的 %p，與 OEM 間的連線可能會被封鎖。\n\n我們建議您到\n   %url/oem/oem.htm\n\n下載 %p 試用版。此版本可使您連線至所有 OEM 裝置，\n並可能比您現在已安裝的版本還新。";
 inst_cfi_over_aol = "您正準備安裝 OEM %p 版本，但您已經\n安裝了一個 AOL %p。\n若您繼續安裝這套 %p，與 AOL 間的連線可能會被封鎖。\n\n我們建議您到：\n   %url/oem/oem.htm\n下載最新的 %p 版本。此版本可以讓您連線至所有 OEM 裝置，\n並可能比您現在已安裝的版本還新。";
-inst_raspppoe = "您可能安裝了 RASPPPoE。RASPPPoE 目前的設置為，將每個 %p 封包都記錄下來。要停止這個行為，請前往 RASPPPoE 通訊協定，選擇屬性、進階、並取消勾選「Log Warnings」。這不會影響 RASPPPoE 的功能，只是使事件記錄大小縮小，並提高執行效能。";
+inst_raspppoe = "您可能安裝了 RASPPPoE。RASPPPoE 目前的設定為，將每個 %p 封包都記錄下來。要停止這個行為，請前往 RASPPPoE 通訊協定，選擇內容、進階、並取消勾選「Log Warnings」。這不會影響 RASPPPoE 的功能，只是使事件記錄大小縮小，並提高執行效能。";
 dll_found = "找到下列已安裝的驅動程式：\n\n";
 dll_founddir = "在資料夾";
 dll_replace = "\n若要繼續，此驅動程式將被取代。";
