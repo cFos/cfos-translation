@@ -68,6 +68,8 @@ setup_connections = "Configura le connessioni";
 ask_inst_ipv6 = "Il protocollo IPv6 non è stato ancora installato su questo sistema.\n\n"
                 "Vuoi installare il protocollo IPv6 adesso?";
 err_inst_ipv6 = "Errore %? durante l'installazione del protocollo IPv6.";
+pause_server = "Server in pausa";
+resume_server = "Riprendi server";
 file_link_failed = "Creazione del link del file fallita.";
 
 / connection entry dialog
@@ -314,6 +316,8 @@ description = "Descrizione";
 new_program = "Nuovo programma";
 restore_defaults = "Ripristina predefiniti";
 add = "Aggiungi";
+all_programs = "Tutti i programmi";
+running_programs = "Programmi in esecuzione";
 suggest_program = "Suggerisci questo programma al team cFos";
 l7_prot_detection = "Rilevamento del protocollo Layer-7";
 l7_prot_detection_help = "Rileva i protocolli analizzando il flusso dati. Usa la casella di dialogo 'Priorità dei protocolli' per cambiare la priorità dei vari protocolli. Se  disattiverai questa opzione, i protocolli verranno rilevati in base al numero delle porte utilizzate.";
@@ -848,12 +852,13 @@ virtual_wifi_ics_not_available = "La condivisione della connessione ad Internet 
 virtual_wifi_error_get_cons = "Si è verificato un errore nel ricevere le connessioni alla rete";
 virtual_wifi_ics_warning = "La condivisione della rete Internet è abilitata sulla seguente rete:\n%?\n\nPreferisci utilizzare quest'altra rete al suo posto:\n%?";
 virtual_wifi_error_enable_ics = "Si è verificato un errore nell'abilitare la condivisione della connessione ad Internet.";
-virtual_wifi_error_start = "Si è verificato un errore nel avviare Virtual Wi-Fi.";
+virtual_wifi_error_start = "Si è verificato un errore nell'avvio di Virtual Wi-Fi.";
+virtual_wifi_error_win10 = "Un modulo di Microsoft Windows è andato in crash provando ad abilitare la Condivisione connessione Internet con un Virtual Hosted Network. Questo comportamento è stato rilevato in Windows 10 a partire dall'Anniversary Update (versione 1607, build 14390 e superiori). Speriamo in una rapida soluzione da Microsoft.";
 virtual_wifi_ok = "Il Virtual Wi-Fi e la condivisione della rete Internet sono stati abilitati.\n\nNota: Se un client non riesce a connettersi al Virtual Wi-Fi, fermare e riavviare il Virtual Wi-Fi\n\nSe un client riesce a connettersi al Virtual Wi-Fi ma non ha la connessione ad Internet, disinstallare e reinstallare %p.";
-virtual_wifi_query_stop = "Fermare il Virtual Wi-Fi?";
-virtual_wifi_error_stop = "Si è verificato un errore nel fermare Virtual Wi-Fi:";
-virtual_wifi_stopped = "Virtual Wi-Fi fermato con successo.";
-virtual_wifi_dialup_ics = "Per una connessione dial-up è necessario abilitare Condivisione connessione Internet manualmente modificando le proprietà di questa connessione.";
+virtual_wifi_query_stop = "Arrestare il Virtual Wi-Fi?";
+virtual_wifi_error_stop = "Si è verificato un errore nell'arresto di Virtual Wi-Fi:";
+virtual_wifi_stopped = "Virtual Wi-Fi arrestato con successo.";
+virtual_wifi_dialup_ics = "Per una connessione dial-up è necessario abilitare la Condivisione connessione Internet manualmente modificando le proprietà di questa connessione.";
 virtual_wifi_error_not_present = "Nessuna (o non pronta) interfaccia Wi-Fi trovata.\n\nPer configurare il Virtual Wi-Fi deve essere presente e pronta una interfaccia Wi-Fi.";
 virtual_wifi_autostart = "Avvia automaticamente all'avvio del sistema.";
 virtual_wifi_deactivate_autostart = "Disabilita l'avvio automatico all'avvio del sistema.";
